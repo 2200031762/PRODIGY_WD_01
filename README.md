@@ -1,0 +1,14 @@
+HOME PAGE:
+
+https://github.com/2200031762/PRODIGY_WD_01/assets/158731485/9c6a52dd-bcc2-46bf-9c43-f2db61c7cafb
+
+PRODUCT PAGE:
+
+https://github.com/2200031762/PRODIGY_WD_01/assets/158731485/7bef6e84-ab68-4cd6-946b-b38a7ef9dcbc
+
+ABOUT US PAGE:
+
+![About Us](https://github.com/2200031762/PRODIGY_WD_01/assets/158731485/16251adf-daf1-4f75-9911-08d055b3b648)
+
+CONTACT US PAGE:
+![CONTACT US](https://github.com/2200031762/PRODIGY_WD_01/assets/158731485/7c08dac7-ea7f-41d1-8060-951e40ad1993)
