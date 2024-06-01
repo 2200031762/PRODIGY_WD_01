@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvin Klein Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+        }
+
+        .campaign-heading {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .refine-options {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .refine-options label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .refine-options select {
+            width: 200px;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        .product-img {
+            width: 200px; /* Adjust image width as needed */
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .product-info {
+            margin-top: 20px;
+        }
+
+        .product-info p {
+            margin-bottom: 5px;
+        }
+
+        .roman {
+            font-style: normal; /* Change font style to normal (roman) */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://logos-download.com/wp-content/uploads/2016/02/Calvin_Klein_logo_inverted_colors.png" alt="Calvin Klein Logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-section">
+            <h1 class="campaign-heading"><span class="roman">Jung Kook <br> in Calvin Klein </span><br> </h1>
+            <p> Discover the campaign collection of casual icons with major energy.</p>
+
+            <div class="refine-options">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="tops">Tops (9)</option>
+                    <option value="outerwear">Outerwear (6)</option>
+                    <option value="bottoms">Bottoms (13)</option>
+                </select>
+
+                <label for="size">Size:</label>
+                <select id="size">
+                    <option value="xs">XS (16)</option>
+                    <option value="s">S (18)</option>
+                    <option value="m">M (16)</option>
+                    <option value="l">L (16)</option>
+                    <option value="xl">XL (16)</option>
+                    <option value="xxl">XXL (15)</option>
+                    <option value="29">29 (4)</option>
+                    <option value="30">30 (7)</option>
+                    <option value="31">31 (8)</option>
+                    <option value="32">32 (9)</option>
+                    <option value="33">33 (9)</option>
+                    <option value="34">34 (10)</option>
+                    <option value="36">36 (8)</option>
+                    <option value="38">38 (2)</option>
+                    <option value="40">40 (1)</option>
+                </select>
+
+                <label for="price">Price:</label>
+                <select id="price">
+                    <option value="$0-$25">$0 - $25 (1)</option>
+                    <option value="$25-$50">$25 - $50 (4)</option>
+                    <option value="$50-$100">$50 - $100 (17)</option>
+                    <option value="$100-$150">$100 - $150 (4)</option>
+                    <option value="$150-$300">$150 - $300 (2)</option>
+                </select>
+
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="featured">Featured</option>
+                    <option value="popular">Popular</option>
+                </select>
+            </div>
+
+            <div class="product-row">
+                <div class="product">
+                    <img src="https://media1.calvinklein.com/images/20240220/Tiles/Tile_Denim_2x.webp" alt="Denim" class="product-img">
+                    <p>Signature Denim</p>
+                    <p>The forever classics with the perfect fit.</p>
+                    <p>Shop Now</p>
+                </div>
+                <div class="product">
+                    <img src="https://media1.calvinklein.com/images/20240220/Tiles/Tile_Sweatshirts_2x.webp" alt="Sweatshirts" class="product-img">
+                    <p>Sweatshirts and Hoodies</p>
+                    <p>Comfortable and casual layers.</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <div class="product-row">
+                <div class="product">
+                    <img src="https://www.calvinklein.com.sg/dw/image/v2/BGLQ_PRD/on/demandware.static/-/Sites-ck-master-catalog/default/dwbdee475e/40WK840/Jennie_Denim_Campaign_PDP_images12.jpg?sw=548&sh=685&q=90" alt="Chambray Classic Button-Down Shirt" class="product-img">
+                    <p>Chambray Classic Button-Down Shirt</p>
+                    <p>Shop Now</p>
+                </div>
+                <div class="product">
+                    <img src="https://www.calvinklein.com.sg/dw/image/v2/BGLQ_PRD/on/demandware.static/-/Sites-ck-master-catalog/default/dw16d8da7a/40WK731/Jennie_Denim_Campaign_PDP_images8.jpg?sw=548&sh=685&q=90" alt="Jennie Denim Campaign" class="product-img">
+                    <p>Jennie Denim Campaign</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <div class="product-row">
+                <div class="product">
+                    <img src="https://media1.calvinklein.com/images/20240220/Tiles/Tile_Outerwear_2x.webp" alt="Outerwear" class="product-img">
+                    <p>Classic Trucker Jacket</p>
+                    <p>Shop Now</p>
+                </div>
+                <div class="product">
+                    <img src="https://www.calvinklein.com.sg/dw/image/v2/BGLQ_PRD/on/demandware.static/-/Library-Sites-calvin-klein-shared-library/default/dwfd192bf8/jennie/jennie%20Tile%20Banner2.jpg" alt="Jennie Tile Banner" class="product-img">
+                    <p>Spring Outerwear</p>
+                    <p>Sharp and lightweight jackets.</p>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

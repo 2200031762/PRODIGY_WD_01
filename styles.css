@@ -1,0 +1,133 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for Home Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar li {
+    margin-right: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9); /* Fallback color */
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+    /* Center and cover the background with the video */
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Make it relative to allow z-index positioning */
+}
+
+.section .content {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.section p {
+    color: #cccccc;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+/* Styles for Product Page */
+.product-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9); /* Fallback color */
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+    position: relative; /* Make it relative to allow z-index positioning */
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Increase the gap between images */
+    margin-bottom: 20px;
+}
+
+.product {
+    flex: 1;
+    max-width: calc(50% - 20px); /* Two products side by side with increased gap */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto; /* Adjust height automatically */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add spacing between image and text */
+}
+
+.product p {
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+

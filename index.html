@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvin Klein</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://logos-download.com/wp-content/uploads/2016/02/Calvin_Klein_logo_inverted_colors.png" alt="Calvin Klein Logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section">
+            <h1>Jung Kook | Campaign Collection</h1>
+            <video autoplay muted loop class="bg-video">
+                <source src="Introducing Jung Kook _ Calvin Klein Spring 2023.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="content">
+                <!-- Content here -->
+            </div>
+        </section>
+        <!-- Other sections for about, contact, etc. -->
+    </main>
+
+    <!-- Adding Audio with video element but audio controls only -->
+    <audio autoplay>
+        <source src="D:\WD_01\interactive-nav\Introducing Jung Kook _ Calvin Klein Spring 2023.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        // Hide the video controls for better synchronization
+        const video = document.querySelector('video');
+        video.controls = false;
+    </script>
+</body>
+</html>
+
+
+
